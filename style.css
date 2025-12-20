@@ -25,6 +25,11 @@ header {
   color: var(--text);
 }
 
+.center {
+  display: grid;
+  place-items: center;
+}
+
 .post-preview {
   font-size: 70pt;
   width: 100%;

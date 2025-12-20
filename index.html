@@ -4,12 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Just Another Programming Blog</title>
+  <link rel="icon" type="image/png" href="favicon.png" sizes="16x16"/>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
   <script src="index.js" defer></script>
 </head>
 <body>
-  <button onclick="reset()">Home</button>
+  <header class="center">
+    <button onclick="reset()">Home</button>
+    <img src="favicon.png" alt="Logo">
+  </header>
   <header>
     <h1>Welcome to Just Another Programming Blog</h1>
     <p>
@@ -17,6 +21,8 @@
       (By "We" I mean "I", and "I" will definitely not do all things programming)
     </p>
   </header>
-  <div id="content"></div>
+  <header class="center">
+    <div id="content"></div>
+  </header>
 </body>
 </html>
